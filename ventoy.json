@@ -1,0 +1,36 @@
+{
+    "control": [
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_FILT_DOT_UNDERSCORE_FILE": "1" }
+    ],
+
+    "theme": {
+        "file": "/ventoy/themes/poly-dark/theme.txt",
+        "gfxmode": "1920x1080",
+        "ventoy_top": "5%",
+        "ventoy_color": "#e9333c"
+    },
+
+    "menu_class": [
+        {
+            "key": "Windows",
+            "class": "windows"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "memtest",
+            "class": "gnu-linux"
+        },
+        {
+            "key": "gparted",
+            "class": "gnu-linux"
+        },
+        {
+            "key": "HBCD",
+            "class": "windows"
+        }
+    ]
+}
