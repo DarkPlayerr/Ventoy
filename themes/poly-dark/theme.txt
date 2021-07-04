@@ -25,6 +25,17 @@ terminal-border: "0"
   selected_item_pixmap_style = "selected_item_*.png"
 }
 
+# Ventoy options
++ label {
+  left = 0
+  top = 100%-44
+  width = 100%
+  align = "center"
+  text = "[F1] Memdisk [F2] Power [F3] TreeView [F4] Localboot [F5] Tools [F6] Menu"
+  color = "#e9333c"
+  font = "Unifont Regular 18"
+}
+
 # Navigation keys hint
 + label {
   left = 0
