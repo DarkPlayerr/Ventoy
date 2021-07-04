@@ -25,18 +25,6 @@ terminal-border: "0"
   selected_item_pixmap_style = "selected_item_*.png"
 }
 
-# Countdown message
-+ label {
-  left = 0
-  top = 100%-48
-  width = 100%
-  align = "center"
-  id = "__timeout__"
-  text = "Booting in %d seconds"
-  color = "#777777"
-  font = "Unifont Regular 18"
-}
-
 # Navigation keys hint
 + label {
   left = 0
