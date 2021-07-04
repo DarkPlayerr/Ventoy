@@ -1,7 +1,7 @@
 # Global properties
 title-text: ""
 desktop-image: "background.png"
-desktop-color: "#000000"
+desktop-color: "#121212"
 terminal-font: "Unifont Regular 18"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
@@ -13,12 +13,12 @@ terminal-border: "0"
 # Boot menu
 + boot_menu {
   left = 15%
-  top = 20%
+  top = 25%
   width = 70%
   height = 60%
   item_font = "Unifont Regular 18"
   item_color = "#777777"
-  selected_item_color = "#999999"
+  selected_item_color = "#e9333c"
   item_height = 40
   item_spacing = 4
   item_pixmap_style = "item_*.png"
@@ -42,7 +42,7 @@ terminal-border: "0"
   top = 100%-24
   width = 100%
   align = "center"
-  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  text = "Use ↑ and ↓ keys to select, Enter to confirm"
   color = "#777777"
   font = "Unifont Regular 18"
 }
